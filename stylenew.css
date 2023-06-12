@@ -1,0 +1,272 @@
+/* font-family: 'Kreon', serif; 
+font-family: 'Gelasio', serif; */
+
+/* Navbar */
+
+.nav-link {
+    color: rgb(83, 79, 79);
+    margin-left: 10px;
+    font-family: 'Kreon', serif;
+    font-size: 20px;
+
+}
+
+.nav-link:hover {
+    color: orangered;
+    text-decoration: underline;
+    margin-left: 10px;
+}
+
+/* Button  */
+
+.btn1 {
+    background-color: white;
+    border: 1px solid orangered;
+    color: black;
+    border-radius: 10px;
+    padding: 6px 25px;
+    margin-right: 20px;
+    font-family: 'Kreon', serif;
+
+}
+
+.btn1:hover {
+    background-color: orangered;
+    color: white;
+}
+
+.btn2 {
+    background-color: orangered;
+    border: 1px solid orangered;
+    color: black;
+    border-radius: 10px;
+    padding: 6px 25px;
+    font-family: 'Kreon', serif;
+}
+
+.btn2:hover {
+    background-color: black;
+    color: white;
+}
+
+/* Bg Img  */
+
+.mask h1 {
+    font-size: 70px;
+    font-weight: 900;
+    font-family: 'Kreon', serif;
+}
+
+.mask h4 {
+    padding-top: 10%;
+    font-size: 30px;
+    font-family: 'Gelasio', serif;
+}
+
+/* Bg Btn  */
+.mask a {
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-family: 'Kreon', serif;
+}
+
+.mask a:hover {
+    border-radius: 20px;
+    background-color: orangered;
+    color: black;
+    font-size: larger;
+}
+
+/* Our Courses */
+h2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    font-family: 'Kreon', serif;
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.container1 {
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(355px, 1fr));
+    padding: 10px;
+}
+
+.item {
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: -2px 8px;
+    height: 300px;
+    font-family: 'Kreon', serif;
+    font-weight: 900;
+}
+
+.count {
+    font-size: 35px;
+    opacity: 0.3;
+}
+
+.container1 p {
+    padding-top: 15%;
+    font-size: 20px;
+    font-family: 'Gelasio', serif;
+
+}
+
+#icon1 {
+    font-size: 35px;
+    padding-left: 15px;
+}
+
+#icon1:hover {
+    font-size: 35px;
+    padding-left: 15px;
+    color: orangered;
+}
+
+/* Contact */
+
+.cta {
+    /* margin: 100px auto;
+    max-width: 1200px; */
+    height: 50%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(contacttt.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.cta h3 {
+    font-size: 60px;
+}
+
+.cta p {
+    margin-left: 10px;
+}
+
+.cta a {
+    color:white;
+}
+
+h4 {
+    font-size: 38px;
+    display: flex;
+    justify-content: center;
+    padding-top: 4%;
+    font-family: 'Gelasio', serif;
+}
+
+.btn3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    background-color: white;
+    border: 1px solid orangered;
+    color: black;
+    border-radius: 10px;
+    padding: 6px 25px;
+    margin-right: 20px;
+    font-family: 'Kreon', serif;
+    margin-bottom: 5%;
+}
+
+.btn3:hover {
+    background-color: orangered;
+    color: white;
+}
+
+.contact {
+    font-size: 30px;
+}
+
+/* Pricing */
+
+.container3 {
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(355px, 1fr));
+    padding: 10px;
+    padding-bottom: 50px;
+}
+
+.item1 {
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: -2px 8px;
+    height: 750px;
+    font-family: 'Kreon', serif;
+
+}
+
+.plan {
+    background-color: orangered;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: 'Kreon', serif;
+
+}
+
+.currency {
+    font-size: 22px;
+    opacity: 0.4;
+    font-family: 'Kreon', serif;
+}
+
+.rate {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    color: black;
+    font-family: 'Kreon', serif;
+
+}
+
+.container3 p {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-family: 'Gelasio', serif;
+
+}
+
+h6 {
+    display: flex;
+    float: inline-end;
+    opacity: 0.4;
+    color: black;
+    font-family: 'Kreon', serif;
+
+}
+
+i {
+    color: orangered;
+    margin: 5px;
+}
+
+.btn4 {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    background-color: white;
+    border: 1px solid orangered;
+    color: black;
+    border-radius: 10px;
+    padding: 6px 25px;
+    margin-top: 50px;
+    margin-right: 20px;
+    font-family: 'Kreon', serif;
+
+}
+
+.btn4:hover {
+    background-color: orangered;
+    color: white;
+}
