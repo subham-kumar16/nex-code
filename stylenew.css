@@ -86,11 +86,12 @@ h2 {
     padding-top: 10px;
     font-family: 'Kreon', serif;
     font-size: 60px;
-    font-weight: 900;
+    color: black;
 }
 
 .container1 {
     display: grid;
+    color: black;
     grid-gap: 2rem;
     grid-template-columns: repeat(auto-fit, minmax(355px, 1fr));
     padding: 10px;
@@ -115,6 +116,7 @@ h2 {
     padding-top: 15%;
     font-size: 20px;
     font-family: 'Gelasio', serif;
+    color: gray;
 
 }
 
@@ -132,13 +134,16 @@ h2 {
 /* Contact */
 
 .cta {
-    /* margin: 100px auto;
-    max-width: 1200px; */
+    margin: 40px auto;
+    /* max-width: 1200px; */
     height: 50%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(contacttt.jpg);
     background-position: center;
     background-size: cover;
     color: white;
+    padding-top: 6%;
+    padding-bottom: 6%;
+
 }
 
 .cta h3 {
@@ -162,7 +167,9 @@ h4 {
 }
 
 .btn3 {
+    
     display: flex;
+    margin: auto;
     justify-content: center;
     align-items: center;
     font-size: 20px;
@@ -171,9 +178,9 @@ h4 {
     color: black;
     border-radius: 10px;
     padding: 6px 25px;
-    margin-right: 20px;
     font-family: 'Kreon', serif;
     margin-bottom: 5%;
+    width: 200px;
 }
 
 .btn3:hover {
@@ -201,14 +208,34 @@ h4 {
     padding: 10px;
     box-shadow: -2px 8px;
     height: 750px;
+    width: 400px;
+    display: flexbox;
+    margin: auto;
+    justify-content: center;
     font-family: 'Kreon', serif;
+    /* margin-left: 250px; */
+}
 
+.item2 {
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: -2px 8px;
+    height: 750px;
+    width: 400px;
+    display: flexbox;
+    margin: auto;
+    justify-content: center;
+    font-family: 'Kreon', serif;
+    /* margin-left: 100px; */
 }
 
 .plan {
     background-color: orangered;
     color: white;
     display: flex;
+    margin: auto;
+    width: 300px;
     justify-content: center;
     font-family: 'Kreon', serif;
 
@@ -252,16 +279,17 @@ i {
 }
 
 .btn4 {
+    width: 200px;
     display: flex;
-    justify-content: center;
     margin: auto;
+    justify-content: center;
+    align-items: center;
     background-color: white;
     border: 1px solid orangered;
     color: black;
     border-radius: 10px;
     padding: 6px 25px;
     margin-top: 50px;
-    margin-right: 20px;
     font-family: 'Kreon', serif;
 
 }
